@@ -1,0 +1,227 @@
+
+.contenair{
+	
+}
+/*--------------- Header-------*/
+header {
+	width: 100%;
+	text-align:center;
+	margin: 0 auto;
+	background: url(img/fondbody3.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+header a {
+	width:325px;
+	display: inline-block;
+}
+
+header a img{
+	width:100%;
+	max-width: 500px;
+}
+
+nav {
+	width: 100ù;
+	margin: 0 auto;
+}
+
+ul {
+	width:100%;
+	display:inline-block;
+}
+
+ul li{
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+}
+
+ul li a{
+	display:inline-block;
+	width: 145px;
+	color:#000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height:45px;
+	background:#FFFFFF;
+	border-radius: 15px 15px 0 0;
+	padding: 0 10px;
+}
+/*--------------- IN HEADER-------*/
+
+/*--------------- CONTEND-------*/
+.contend{
+	margin:0 auto;
+	width: 100%;
+	background:#FFFFFF;
+	border-radius:0 0 15px 15px ;
+	text-align: center;
+    padding-top: 80px;
+}
+
+.activite {
+	margin:0 30px;
+	max-width: 400px;
+	width: 100%;
+	display : inline-block;
+}
+		
+.activite h1{
+	color:#790000;
+	font-size: 35px;
+	margin: 0 0 20px;
+}
+.activite a{
+	margin:0 auto;
+	max-width:400px;
+	width: 100%;
+	border-radius:15px;
+	overflow: hidden;
+}	
+.activite img{
+	margin:0 auto;
+	max-width:400px;
+	width: 100%;
+	border-radius:15px;	
+}
+/*--------------- FINCONTEND-------*/
+
+/*--------------- LIEUX-------*/
+.lieux{
+	margin:40px auto;
+	width: 100%;
+	max-width: 600px;
+	font-size: 30px;
+}
+.lieux p{
+	font-size: 20px;
+}
+.lieux ul li{
+	font-size: 20px;
+	display:block;
+	text-align: left;
+}
+.infos_lieux{
+	margin:0 auto;
+	width: 100%;
+	padding: 15px;
+}
+.lieux_aguagym{
+	width: 100%;
+	max-width: 265px;
+	font-size: 15px;
+	display:inline-block;
+	vertical-align: top;
+}
+.lieux_aguagym h1{
+color:#790000;
+font-size:18px;
+}
+.horaire_aguagym{
+	width: 100%;
+	max-width: 320px;
+	font-size: 15px;
+	display:inline-block;
+}
+/*--------------- FIN LIEUX-------*/
+
+/*--------------- TARIFS-------*/
+.tarifs{
+	margin:40px auto;
+	width: 100%;
+	max-width: 600px;
+	font-size: 30px;
+	text-align:center;
+}
+
+.tarifs h1{
+	margin:40px auto;
+	width: 100%;
+	font-size: 30px;
+}
+
+.tarifs p{
+	margin:40px auto;
+	width: 100%;
+	font-size: 20px;
+}
+/*--------------- FIN TARIFS-------*/
+
+/*--------------- CONTACT-------*/
+.contact{
+	margin:40px auto;
+	width: 100%;
+	max-width: 620px;
+	font-size: 30px;
+	text-align:left;
+}
+
+.contact h1{
+	margin:40px auto;
+	width: 100%;
+	font-size: 30px;
+	color: #790000;
+}
+
+.contact p{
+	margin:40px auto;
+	width: 100%;
+	font-size: 20px;
+}
+.contact a{
+	margin:40px auto;
+	width: 100%;
+	font-size: 20px;
+	color:#790000;
+}
+/*--------------- FIN CONTACT-------*/
+
+/*--------------- MEDIA  QUERY-------*/
+@media all and (max-width: 1600px){
+  
+	.activite {
+		max-width: 250px;
+	}
+	
+	.activite h1{
+		font-size: 25px;
+	}
+	
+	.intro{
+		font-size: 20px;
+	}
+}  
+
+@media all and (max-width: 650px){
+  
+	.activite {
+		max-width: 150px;
+	}
+	
+	.activite h1{
+		font-size: 20px;
+	}
+	
+	.intro{
+		font-size: 14px;
+		margin:20px auto;
+	}
+	
+		
+	ul li a{
+		display:inline;
+		width: 145px;
+		color:#000000;
+		text-transform: uppercase;
+		text-decoration: none;
+		line-height:45px;
+		background:#FFFFFF;
+		border-radius: 15px;
+		padding: 5px 10px;
+	}
+  
+  
+  
+}
